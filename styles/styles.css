@@ -17,23 +17,34 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    padding: 1px;
+    box-shadow: 0 0 15px #4D5859;
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 2px solid rgb(0 79 110 / 0.4);
+    border: 2px solid rgb(0 79 110 / 0.2);
     padding: 1rem;
     background-color: #104735;
-    color: #FEE11A;
+    color: #E2E11B;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: center;
 }
