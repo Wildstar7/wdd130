@@ -1,0 +1,111 @@
+:root {
+    --main-background-color: #f6fdfe;
+    --main-text-color: #041b25;
+    --primary-color: #104734;
+    --secondary-color: #005070;
+    --accent1-color: #9FB1BC;
+    --accent2-color: #8C1D58;
+    --light-logo-color: #c5c7b9;
+    --heading-font: "Trade Winds";
+    --paragraph-font: "Merriweather Sans";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    width: 100%;
+    max-width: 1000px;
+}
+
+html{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    font-size: 10px;
+    color: var(--main-text-color);
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    font-family: var(--paragraph-font), Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    margin: 10px auto;
+    position: relative;
+}
+
+.hero h1{
+    font-family: var(--heading-font);
+    font-size: 3.6rem;
+    text-align: center;
+    color: var(--primary-color);
+    position: absolute;
+    top: 0px;
+    background-color: #c5c7b977;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 0px;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #00507099;
+    
+}
+
+.hero article img {
+    width: 250px;
+    height: auto;
+    float: right;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-size: 2.5rem;
+    color: var(--accent2-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-size: 2rem;
+    color: var(--light-logo-color);
+}
+
+nav {
+    font-family: var(--paragraph-font);
+    font-size: 2rem;
+}
+
+footer p {
+    font-family: var(--heading-font);
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 /10%);
+    padding: 1rem;
+    background-color: var(--main-background-color);
+    color: var(--main-text-color)
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.sociallinks img {
+    width: 50px;
+    height: auto;
+}
