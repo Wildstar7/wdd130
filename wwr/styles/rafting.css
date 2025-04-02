@@ -48,7 +48,7 @@ header nav {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 1rem
 }
 
