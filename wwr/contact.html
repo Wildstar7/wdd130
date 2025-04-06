@@ -40,23 +40,23 @@
                     </div>
                 </div>
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5728.233753974247!2d-123.11804703285277!3d44.122211353138916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c0e2c06dc2320d%3A0x2c39c2de685cbf2!2s1690%20River%20Loop%201%2C%20Eugene%2C%20OR%2097404!5e0!3m2!1sen!2sus!4v1743911953171!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5728.233753974247!2d-123.11804703285277!3d44.122211353138916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c0e2c06dc2320d%3A0x2c39c2de685cbf2!2s1690%20River%20Loop%201%2C%20Eugene%2C%20OR%2097404!5e0!3m2!1sen!2sus!4v1743911953171!5m2!1sen!2sus" width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div class="contact_info">
                 <form>
                     <fieldset>
                         <!-- <legend>Contact Us</legend> -->
-                        <label>Name<input type="text" name="name" placeholder="Name"></label>
-                        <label>Email<input type="email" name="email" placeholder="example@example.com"></label>
+                        <label>Name<input type="text" name="name" id="name" placeholder="Name"></label>
+                        <label>Email<input type="email" name="email" id="email" placeholder="example@example.com"></label>
                         <label>Subject</label>
-                        <label class="radio"><input type="radio" name="subject" value="general">General Inquiry</label>
-                        <label class="radio"><input type="radio" name="subject" value="reservation">Reservation Question</label>
-                        <label class="radio"><input type="radio" name="subject" value="suggestion">Website Suggestion</label>
+                        <label class="radio"><input type="radio" name="subject" id="general_inquiry" value="general">General Inquiry</label>
+                        <label class="radio"><input type="radio" name="subject" id="reservation_question" value="reservation">Reservation Question</label>
+                        <label class="radio"><input type="radio" name="subject" id="website_suggestion" value="suggestion">Website Suggestion</label>
                         <label>Message<textarea id="message" name="message" rows="10" placeholder="Type your message..."></textarea></label>
                         <label class="newsletter"><input type="checkbox" name="subscribe">Subscribe to the monthly newsletter</label>
                     </fieldset>
-                    <input type="submit" value="Send">
+                    <button type="submit" value="Send">Send</button>
                 </form>
             </div>
         </section>
