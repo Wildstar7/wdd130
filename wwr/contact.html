@@ -45,13 +45,13 @@
                         <label>Name<input type="text" name="name" placeholder="Name"></label>
                         <label>Email<input type="email" name="email" placeholder="example@example.com"></label>
                         <label>Subject</label>
-                        <input type="radio" name="subject" value="general">General Inquiry
-                        <input type="radio" name="subject" value="reservation">Reservation Question
-                        <input type="radio" name="subject" value="suggestion">Website Suggestion
+                        <label class="radio"><input type="radio" name="subject" value="general">General Inquiry</label>
+                        <label class="radio"><input type="radio" name="subject" value="reservation">Reservation Question</label>
+                        <label class="radio"><input type="radio" name="subject" value="suggestion">Website Suggestion</label>
                         <label>Message<textarea id="message" name="message" rows="10" placeholder="Type your message..."></textarea></label>
-                        <label>Please subscribe me to the monthly newsletter<input type="checkbox" name="subscribe"></label>
+                        <label class="newsletter"><input type="checkbox" name="subscribe">Subscribe to the monthly newsletter</label>
                     </fieldset>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Send">
                 </form>
             </div>
         </section>
