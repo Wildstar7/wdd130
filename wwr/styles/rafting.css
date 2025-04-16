@@ -116,13 +116,15 @@ h3 {
 
 table {
     width: 90%;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 1rem;
+    text-align: center;
+    display: block;
     border-collapse: collapse;
     font-family: var(--paragraph-font);
     font-size: 1.6rem;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.9);
-    border: 7px solid var(--secondary-color);
+    border: 4px solid var(--secondary-color);
 }
 
 caption {
@@ -387,6 +389,46 @@ p {
     font-family: var(--paragraph-font);
     font-size: 2rem;
     color: var(--light-logo-color);
+}
+
+.trips-heading {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.cta-trips {
+    width: 42%;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    align-items: center;
+    margin: 1rem 0 1rem auto;
+    padding: 1rem;
+    background-color: var(--accent1-color);
+    border-radius: 10px;
+}
+
+.cta-trips a {
+    display: inline-block;
+    padding: 1rem 1rem;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px black;
+}
+
+.cta-trips a:hover {
+    background-color: var(--primary-color);
+    color: var(--light-logo-color);
+    transform: scale(1.15);
 }
 
 .cta {
