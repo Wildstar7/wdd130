@@ -114,6 +114,14 @@ h3 {
     font-size: 1.6rem;
 }
 
+.caption {
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+    font-size: 1.6rem;
+    padding: 3px;
+    text-align: center;
+}
+
 table {
     width: 90%;
     margin: 1rem auto;
@@ -469,9 +477,6 @@ p {
 
 .home-grid figcaption{
     font-size: 2.4rem;
-}
-.home-grid-item {
-    /* width: 50%; */
 }
 
 legend {
